@@ -23,16 +23,16 @@ const randomPhrase = () => {
   let momJoke = `Your ${chosenMember} so ${chosenAdj}! `;
   switch (chosenAdj) {
     case "fat":
-      momJoke += momJokesComponent.adjectives[randomNumber(momJokesComponent.fatPhrases)];
+      momJoke += momJokesComponent.fatPhrases[randomNumber(momJokesComponent.fatPhrases)];
       break;
     case "old":
-      momJoke += momJokesComponent.adjectives[randomNumber(momJokesComponent.oldPhrases)];
+      momJoke += momJokesComponent.oldPhrases[randomNumber(momJokesComponent.oldPhrases)];
       break;
     case "ugly":
-      momJoke += momJokesComponent.adjectives[randomNumber(momJokesComponent.uglyPhrases)];
+      momJoke += momJokesComponent.uglyPhrases[randomNumber(momJokesComponent.uglyPhrases)];
       break;
     case "stupid":
-      momJoke += momJokesComponent.adjectives[randomNumber(momJokesComponent.stupidPhrases)];
+      momJoke += momJokesComponent.stupidPhrases[randomNumber(momJokesComponent.stupidPhrases)];
       break;
     default: break;
   }
