@@ -20,7 +20,7 @@ const randomAdj = () => {
 const randomPhrase = () => {
   let chosenAdj = randomAdj();
   let chosenMember = randomMember();
-  let momJoke = `Your ${chosenMember} so ${chosenAdj}! `;
+  let momJoke = `Your ${chosenMember} so ${chosenAdj}, `;
   switch (chosenAdj) {
     case "fat":
       momJoke += momJokesComponent.fatPhrases[randomNumber(momJokesComponent.fatPhrases)];
